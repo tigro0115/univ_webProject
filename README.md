@@ -16,3 +16,6 @@ framework : React, Spring Boot, MySQL
  - vercel을 통해 사이트 배포
  - git을 사용하여 파일 관리
  - github에 커밋, readme 업로드
+ - MySQL 데이터베이스 관리
+ - fetch 함수 사용해서 로그인 구현
+ 
