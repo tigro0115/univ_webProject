@@ -1,0 +1,43 @@
+#header {
+    position: fixed;
+    top: 0; 
+    left: 0;  
+    width: 100%;
+    padding: 0;
+    border-bottom: 2px solid var(--red);
+}
+#main {
+    position: relative;
+    top: 280px;
+    padding: 30px;
+    background-color: var(--white200);
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 40px 60px 40px 60px;
+    text-align: left;
+    border-top: 1px solid var(--white);
+
+    .developer__sns {
+        margin: 5px 8px 8px 0px;
+        font-size: 1rem;
+        
+        a {
+            
+            span {
+                margin-left: 10px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+    .developer__info {
+        font-size: 0.7rem;
+        span {
+            //line-height: 1.6;
+        }
+    }
+    
+}
